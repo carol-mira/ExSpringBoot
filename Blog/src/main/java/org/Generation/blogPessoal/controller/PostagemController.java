@@ -58,8 +58,8 @@ import org.springframework.http.HttpStatus;
 		}
 		
 		@DeleteMapping("/{id}")
-		public void delete (@PathVariable long id) {
-			repository.deleteById(id);
+		public void delete (@PathVariable long idCategoria) {
+			repository.deleteById(idCategoria);
 	}
 		
 	}
